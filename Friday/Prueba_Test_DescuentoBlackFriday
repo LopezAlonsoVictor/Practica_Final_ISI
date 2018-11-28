@@ -1,0 +1,6 @@
+No entiendo la implementación del programa DescuentoBlackFriday.java.
+En este programa no hay modo de poder hacer los test con las fechas
+que queremos comprobar, debido a que se usan variables locales 
+(no están asociadas a ningún objeto). Dicho de otro modo:
+solamente se aplicará el descuento cuando ejecute este programa el
+día 23 de noviembre.
