@@ -18,7 +18,7 @@ public class MiEmbotelladoraTest
 		assertTrue("El total es 0", 0 == litros.calculaBotellasPequenas(3,5,0));
 	}
 
-	@Test (expected = ClassCastException.class)
+	@Test (expected = RuntimeException.class)
     @SuppressWarnings ("unchecked")
 	public void testtotalnegativo()
 	{
@@ -35,14 +35,14 @@ public class MiEmbotelladoraTest
 		assertTrue("El total es 0", 0 == litros.calculaBotellasPequenas(0,6,7));
 	}
 
-	@Test (expected = ClassCastException.class)
+	@Test (expected = RuntimeException.class)
     @SuppressWarnings ("unchecked")
 	public void testgrandesnegativo()
 	{
 		litros.calculaBotellasPequenas(5,-4,5);
 	}
 
-	@Test (expected = ClassCastException.class)
+	@Test (expected = RuntimeException.class)
     @SuppressWarnings ("unchecked")
 	public void testpequenyasnegativo()
 	{
