@@ -13,7 +13,7 @@ import junit.framework.JUnit4TestAdapter;
 
 // This section declares all of the test classes in the program.
 @RunWith (Suite.class)
-@Suite.SuiteClasses ({ DescuentoBlackFridayTest.class })  // Add test classes here.
+@Suite.SuiteClasses ({ MiDescuentoBlackFridayTest.class })  // Add test classes here.
 
 public class AllTests
 {
@@ -30,4 +30,3 @@ public class AllTests
        return new JUnit4TestAdapter (AllTests.class);
     }
 }
-

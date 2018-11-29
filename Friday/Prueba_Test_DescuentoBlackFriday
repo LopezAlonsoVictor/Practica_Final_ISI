@@ -1,6 +1,9 @@
-No entiendo la implementación del programa DescuentoBlackFriday.java.
-En este programa no hay modo de poder hacer los test con las fechas
-que queremos comprobar, debido a que se usan variables locales 
-(no están asociadas a ningún objeto). Dicho de otro modo:
-solamente se aplicará el descuento cuando ejecute este programa el
-día 23 de noviembre.
+Debido a la implementación del programa DescuentoBlackFriday.java
+obliga a que los test testlimitesuperior, testlimiteinferior y testcorrectofunc
+solamente puedan ser probados si coincide la fecha de la ejecución
+de MiDescuentoBlackFridayTest.java con el 22/11, 23/11 o 24/11.
+Dicho de otro modo:solamente se aplicará el descuento cuando ejecute
+este programa el día 23 de noviembre.
+
+Mi test ha dado un error en testprecionegativo. No se controla en
+DescuentoBlackFriday.java el caso de un precio negativo.
