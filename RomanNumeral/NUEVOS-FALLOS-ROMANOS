@@ -1,0 +1,5 @@
+Primero he copiado mi RomanNumeralTest.java con el nombre de MiRomanNumeralTest.java y he modificado MiRomanNumeralTest para que funcione con su código, es decir, lo que he modificado es que espero que devuelva el error RuntimeException.
+
+Después de realizar esto, he compilado MiRomanNumeralTest.java y el AllTests.java.No ha pasado los últimos 3 de los test que ha realizado mi grupo.
+
+Para que pase todos los test he modificado su RomanNumeral en la linea 57 he puesto que l>1 || v>1||d>1 ya que no puede haber 2 L, 2 V y 2 D.

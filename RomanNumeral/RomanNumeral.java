@@ -54,7 +54,7 @@ public class RomanNumeral
                 }
 			}
         }//si tiene + de 3 letras =
-        if (i>3 ||v>3 ||x>3 ||l>3 || c>3 ||d>3 || m>3) {
+        if (i>3 ||v>1 ||x>3 ||l>1 || c>3 ||d>1 || m>3) {
 			throw new RuntimeException("Número romano no válido(tiene + de 3 letras =)");
 		}
         return(suma);    
